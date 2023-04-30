@@ -1,0 +1,78 @@
+body{
+    background-color: #FF9001;
+    overflow-x:hidden ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4B4B4B;
+    text-align: center;
+    position: relative;
+    top: 7vw;
+}
+nav{
+    display: flex;
+}
+nav div{
+    text-align: center;
+    padding:2vw;
+    background-color: #ECE5D3;
+    border: solid 1px white;
+    position: relative;
+    top:8vw;
+    left:23%;
+    cursor: pointer;
+
+}
+nav div:hover{
+    background-color: tan;
+    color: white;
+    transition: 0.3s;
+}
+
+#Main{
+    position: relative;
+    overflow-x: hidden;
+    top:10vw;
+    left:32%;
+}
+
+#In1, #In2{
+    width: 16vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    background-color: #EEEFF1;
+}
+
+#In2{
+    cursor: not-allowed;
+}
+
+li{
+    cursor: pointer;
+    margin-left: 4.5px;
+}
+
+#UnMain{
+    width:100%;
+    display: flex;
+}
+
+#Un1, #Un2{
+    color:#4B4B4B;
+    width: 16.5vw;
+    height: 10vw;
+    border: 2px solid white;
+    border-radius: 0.5vw;
+    overflow-y: scroll;
+    background-color: #F3ED61;
+}
+
+#Un2{
+    margin-left: 0.4vw;
+}
+
+#UnMain, ul{
+    list-style-type: none;
+    padding: 0;
+}
